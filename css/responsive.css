@@ -1,0 +1,71 @@
+@media screen and (max-width:1000px) {
+
+.logo img{
+    width: 100px;
+}
+
+    .search{
+        padding-left: 0;
+    }
+
+    .search input{
+        width: 100px;
+    }
+
+    .right-nav{
+        width: auto;
+        justify-content: flex-start;
+        align-items: flex-start;
+        position: relative;
+        right: 30px;
+    }
+    
+    .menu-sidebar{
+        width: 10vw;
+        overflow-y: scroll;
+        font-size: xx-small;
+    }
+
+    .menu-sidebar h2{
+        font-size: x-small;
+    }
+
+    .menu-sidebar span{
+        margin-left: 0;
+    }
+
+    .mic-icon{
+        position: relative;
+        right: 30px;
+    }
+    
+    .videocam{
+        padding: 0 0;
+    }
+    
+    .notfications{
+        padding: 0 0;
+    }
+    
+    .account{
+        padding: 0 0;
+    }
+
+    section{
+        width: 90vw;
+    }
+
+    .video-section{
+        padding: 2px 2px;
+    }
+
+    .author img{
+        width: 20px;
+    }
+
+    .video-detail{
+        font-size: smaller;
+    }
+
+
+}

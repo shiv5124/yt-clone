@@ -1,0 +1,143 @@
+ @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Permanent+Marker&family=Roboto:wght@100&family=Skranji&display=swap');
+
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ body {
+     font-family: 'Bungee Spice', cursive;
+     font-family: 'Permanent Marker', cursive;
+     font-family: 'Roboto', sans-serif;
+     font-family: 'Skranji', cursive;
+ }
+
+ .material-symbols-outlined {
+     color: rgb(0, 0, 0);
+ }
+
+ header {
+     height: 10vh;
+     /* background-color: rgb(0, 200, 255); */
+     position: sticky;
+     /* z-index: 10; */
+ }
+
+ nav {
+     padding: 10px 0;
+     display: flex;
+     align-items: center;
+ }
+
+ .logo {
+     padding: 0 20px;
+ }
+
+ .search {
+     padding: 0 10px;
+     /* padding-right: 50px; */
+     padding-left: 100px;
+     display: flex;
+ }
+
+ .search input {
+     height: 30px;
+     width: 500px;
+     border-radius: 5px;
+ }
+
+ .right-nav {
+     width: 500px;
+     /* background-color: red; */
+     display: flex;
+     align-items: flex-end;
+     justify-content: flex-end;
+ }
+
+ .menu-sidebar {
+     /* background-color: aqua; */
+     width: 18vw;
+     max-height: 100vh;
+     display: inline-flex;
+     flex-direction: column;
+     justify-content: space-between;
+     overflow-y: scroll;
+     position: fixed;
+     z-index: 2;
+     float: left;
+     /* background-color: brown; */
+ }
+
+ .top-section {
+     padding: 10px 0;
+     display: inline-flex;
+     flex-direction: column;
+ }
+
+ .library-section {
+     padding: 10px 0;
+     display: inline-flex;
+     flex-direction: column;
+ }
+
+ .subscriptions {
+     padding: 10px 0;
+     display: inline-flex;
+     flex-direction: column;
+ }
+
+ .explore-section {
+     padding: 10px 0;
+     display: inline-flex;
+     flex-direction: column;
+ }
+
+ .bottom-section {
+     padding: 10px 0;
+     display: inline-flex;
+     flex-direction: column;
+ }
+
+ .end-section {
+     padding: 10px 0;
+     display: inline-flex;
+     flex-direction: column;
+ }
+
+ .menu-sidebar span{
+    margin-left: 10px;
+ }
+
+ section {
+     height: 100vh;
+     width: 80vw;
+     /* background-color: red; */
+     z-index: 1;
+     float: right;
+ }
+
+ .videos{
+    background-color: #f9f9f9;
+    width: 100%;
+    height: 100%;
+    padding: 15px 25px;
+    border-top: 1px solid #ddd;
+    overflow-y: scroll;
+ }
+
+ .video-section{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+ }
+
+ .video-detail{
+    display: flex;
+ }
+
+ .author{
+    border-radius: 50%;
+ }
+

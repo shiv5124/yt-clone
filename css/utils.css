@@ -1,0 +1,45 @@
+
+.hover-bold:hover{
+    font-weight: bold;
+    cursor: pointer;
+    background-color: wheat;
+}
+
+/* .menu{
+
+} */
+
+.search-icon{
+    position: relative;
+    right: 38px;
+}
+
+.mic-icon{
+    position: relative;
+    right: 30px;
+}
+
+.videocam{
+    padding: 0 20px;
+}
+
+.notfications{
+    padding: 0 20px;
+}
+
+.account{
+    padding: 0 20px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
